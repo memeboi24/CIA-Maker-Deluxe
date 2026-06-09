@@ -3,3 +3,4 @@ Finally! a new, fast and easy way to make your own or others homebrew apps (as l
 (this comes with bannertool and makerom, they are required for the program to work)
 
 (This was vibecoded but was recoded to fit better with what im trying to do, how much i recoded i forgot this is private until its finished)
+<img width="1919" height="1017" alt="Skærmbillede 2026-06-09 030828" src="https://github.com/user-attachments/assets/f15ef649-d4ee-4d6f-be05-715f29ebfc9d" />
