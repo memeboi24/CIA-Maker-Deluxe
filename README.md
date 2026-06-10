@@ -12,6 +12,6 @@ Is this vibecoded?
 This was based on a vibecoded template i prompted (i am not proud of that) but was recoded to fit better with what im trying to do, how much of it recoded, i forgot
 
 What does this actually do?
-the stuff you fill out in the steps will be put in place of a cmd command for either bannertool or makerom, this tool is supposed to help so that instead of having to know these complex commands, you simply use this program and it does the commands for you, if there is a bug, be sure to report it in issues
+the stuff you fill out in the steps will be put in place of a cmd command for bannertool and then makerom, this tool is supposed to help so that instead of having to know these complex commands, you simply use this program and it does the commands for you, if there is a bug, be sure to report it in issues
 
 ... i couldnt think of anything else
