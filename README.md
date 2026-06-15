@@ -9,7 +9,7 @@ its simple, you follow the instructions and fill out the nessecary metadata, pro
 Questions you might have & Answers
 
 Is this vibecoded?
-This was based on a vibecoded template i prompted (i am not proud of that) but was recoded to fit better with what im trying to do, how much of it recoded, i forgot
+This was based on a vibecoded template i prompted (i am not proud of that) but was recoded to fit better with what im trying to do, how much of it recoded, i forgot but i am still actively working to recode it to be human made instead and even now it works great imo anyways
 
 What does this actually do?
 tldr: its basically a frontend for makerom and bannertool
