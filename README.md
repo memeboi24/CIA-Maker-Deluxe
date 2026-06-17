@@ -4,7 +4,8 @@ Finally! a new, fast and easy way to make your own or others homebrew apps (as l
 
 HOW TO USE IT:
 its simple, you follow the instructions and fill out the nessecary metadata, provide the appropriate files and the program will automate making the cia for you!
-<img width="1919" height="1020" alt="Skærmbillede 2026-06-15 212307" src="https://github.com/user-attachments/assets/32a8a271-2f53-4d37-b8d8-4fe40d3eb57b" />
+<img width="1919" height="1015" alt="Skærmbillede 2026-06-15 212110" src="https://github.com/user-attachments/assets/a291fc09-6a63-46bf-9b80-8e34083c55b5" />
+
 
 
 Questions you might have & Answers
