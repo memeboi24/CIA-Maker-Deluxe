@@ -18,4 +18,7 @@ the stuff you fill out in the steps will be put in place of a cmd command for ba
 Is this vibecoded?
 Im gonna be transparent here, this was based on a vibecoded template i prompted (i am not proud of that) but was recoded to fit better with what im trying to do, how much of it recoded, i forgot but i am still working to recode it to be human made instead and even now it works great imo anyways
 
+Can i contribute to this?
+yeah sure, if you have coding experience i'll gladly accept commits to the python code, it just has to be approved first
+
 I couldnt think of any other questions, if you have one, post it in issues
