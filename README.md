@@ -15,6 +15,9 @@ tldr: its basically a frontend for makerom and bannertool
 
 the stuff you fill out in the steps will be put in place of a cmd command for bannertool and then makerom, this tool is supposed to help so that instead of having to know these complex commands, you simply use this program and it does the commands for you, if there is a bug, be sure to report it in issues
 
+Question i dont know what to name?
+feel free to fork this repository to make the code better and more visually appealing if you want to
+
 Is this vibecoded?
 Im gonna be transparent here, this was based on a vibecoded template i prompted (i am not proud of that) but was recoded to fit better with what im trying to do, how much of it recoded, i forgot but i am still working to recode it to be human made instead and even now it works great imo anyways
 
