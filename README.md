@@ -1,6 +1,7 @@
 # CIA-Maker-Deluxe
 Finally! a new, fast and easy way to make your own or others homebrew apps (as long as it comes with a .elf file) into cia files that can be installed on your modded 3ds's home menu
 (this is bundled with bannertool and makerom as they are required for the program to work)
+and yes, this is open source
 
 HOW TO USE IT:
 its simple, you follow the instructions and fill out the nessecary metadata, provide the appropriate files and the program will automate making the cia for you!
