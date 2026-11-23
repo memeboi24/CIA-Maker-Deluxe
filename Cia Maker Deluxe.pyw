@@ -168,8 +168,15 @@ class WizardApp(tk.Tk):
     # UI
     # -----------------------------
     def _build_ui(self):
-        pywinstyles.change_header_color(self, color="white")
+        self.configure(bg='blue')
         pywinstyles.apply_style(self, style='win7')
+
+        style = ttk.Style()
+        style.configure("TFrame", background="blue")
+        style.configure("TLabelframe", background="lightblue")
+        style.configure("TLabelframe.Label", background="lightblue")
+        style.configure("TLabel", background="lightblue")
+        
         self.columnconfigure(0, weight=1)
         self.rowconfigure(1, weight=1)
 
@@ -177,7 +184,7 @@ class WizardApp(tk.Tk):
         top.grid(row=0, column=0, sticky="ew")
         top.columnconfigure(0, weight=1)
 
-        self.progress = tk.Canvas(top, height=90, highlightthickness=0)
+        self.progress = tk.Canvas(top, height=90, highlightthickness=0, bg='blue')
         self.progress.grid(row=0, column=0, sticky="ew")
         self.progress.bind("<Configure>", lambda e: self.draw_progress())
 
@@ -249,9 +256,9 @@ class WizardApp(tk.Tk):
         for i, x in enumerate(xs):
             r = 16
             c.create_oval(x-r, y-r, x+r, y+r, fill=fill(i), outline=outline(i), width=2)
-            c.create_text(x, y + 28, text=labels[i], font=("Segoe UI", 10, "bold"), fill="#222")
+            c.create_text(x, y + 28, text=labels[i], font=("Helvetica", 16, "bold"), fill="#222")
 
-        c.create_text(w * 0.1, 7, text="CIA Setup Wizard", font=("Segoe UI", 16, "bold"), fill="#111")
+        c.create_text(w * 0.1, 7, text="CIA Setup Wizard", fill="#111", font=("Helvetica", 16, "bold"))
 
     def show_step(self, step_index: int):
         self.current_step = step_index
