@@ -47,7 +47,7 @@ def file_exists(path: str) -> bool:
 
 def validate_png_size(path: str, expected_size: tuple[int, int]) -> tuple[bool, str]:
     if Image is None:
-        return False, "Pillow is required for image validation & preview. Install it with: pip install pillow"
+        return False, "Pillow is required for image validation & preview. Please install it with: (py or python, whichever you normally use) -m pip install pillow"
 
     if not file_exists(path):
         return False, f"Missing file: {path}"
@@ -336,6 +336,12 @@ class WizardApp(tk.Tk):
             text="When you are ready and have filled out the required metadata, you may proceed to the next step after the wizard has made the nessecary files",
             wraplength=320
         ).grid(row=2, column=0, sticky="nw")
+
+        ttk.Label(
+            right,
+            text="Please note that this tool as it is right now, only supports making images into banners and not 3d models, if you wish for 3d model support, go to the github page and open up an issue asking for it",
+            wraplength=320
+        ).grid(row=3, column=0, sticky="nw")
         return page
 
     def _build_step2_page(self, parent):
