@@ -5,7 +5,8 @@ and yes, this is open source
 
 HOW TO USE IT:
 its simple, you follow the instructions and fill out the nessecary metadata, provide the appropriate files and the program will automate making the cia for you!
-<img width="1918" height="1018" alt="Skærmbillede 2026-11-23 112234" src="https://github.com/user-attachments/assets/d4d04909-f8f4-4316-a172-55094b4aacab" />
+<img width="1918" height="1018" alt="image" src="https://github.com/user-attachments/assets/63f076f2-743d-459c-bdd9-b16004b63f93" />
+
 
 
 
