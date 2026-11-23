@@ -5,6 +5,7 @@ import shutil
 import subprocess
 import wave
 import webbrowser
+import pywinstyles
 import tkinter as tk
 from tkinter import filedialog, messagebox, ttk
 from tkinter.scrolledtext import ScrolledText
@@ -167,6 +168,8 @@ class WizardApp(tk.Tk):
     # UI
     # -----------------------------
     def _build_ui(self):
+        pywinstyles.change_header_color(self, color="white")
+        pywinstyles.apply_style(self, style='win7')
         self.columnconfigure(0, weight=1)
         self.rowconfigure(1, weight=1)
 
